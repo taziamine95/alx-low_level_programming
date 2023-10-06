@@ -1,0 +1,2 @@
+#!/bin/bashgcc 
+gcc -€ $CFILE > c
