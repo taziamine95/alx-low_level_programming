@@ -7,7 +7,7 @@
  * main - entry point
  *
  * Description: print the value of n status:
- *              greater than, is zero and is not less that 6
+ *              greater than, is zero and is not less that 6.
  *
  * Return: 0 (success)
 */
