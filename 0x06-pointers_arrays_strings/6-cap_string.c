@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * isLower - determines whether ascil is lowercase
+ * isLower - determines whether ascii is lowercase
  * @c: character
  * Return: 1 if true, 0 if false
 */
@@ -21,7 +21,7 @@ int isLower(char c)
 int isDelimiter(char c)
 {
 	int i;
-	char delimiter[] = " \t\n,.!,\"(){}";
+	char delimiter[] = " \t\n,.!?\"(){}";
 
 	for (i = 0; i < 12; i++)
 		if (c == delimiter[i])
@@ -51,7 +51,7 @@ char *cap_string(char *s)
 		}
 		else
 			foudDelimit = 0;
-		s++
+		s++;
 	}
 	return (ptr);
 }
