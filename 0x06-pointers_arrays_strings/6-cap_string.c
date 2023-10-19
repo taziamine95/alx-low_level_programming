@@ -50,7 +50,7 @@ char *cap_string(char *s)
 			foundDelimit = 0;
 		}
 		else
-			FoudDelimit = 0;
+			foudDelimit = 0;
 		s++
 	}
 	return (ptr);
