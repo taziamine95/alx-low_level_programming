@@ -8,7 +8,7 @@
  * or NULL if no such byte is found.
 */
 
-ar *_strpbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	int itd, itc;
 	char *p;
